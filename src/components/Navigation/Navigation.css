@@ -1,0 +1,22 @@
+
+.Navigation__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    min-height: 100px;
+    justify-content: space-around;
+  }
+  .Navigation__button {
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.1s linear;
+  }
+  .Navigation__button:hover {
+    color: #89EDA0;
+  }
+  .Navigation__button--active {
+    text-decoration: underline;
+    color: #89EDA0; 
+  }
